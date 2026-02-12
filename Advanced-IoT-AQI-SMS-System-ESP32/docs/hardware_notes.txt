@@ -1,0 +1,17 @@
+
+SIM800L Power Requirement:
+
+- Requires 3.8V–4.2V
+- Minimum 2A current supply
+- Use 1000µF capacitor across VCC and GND
+- Do NOT power directly from 5V
+
+MQ-135:
+AO → GPIO 34
+VCC → 5V
+GND → GND
+
+SIM800L:
+TX → GPIO 16
+RX → GPIO 17
+GND → Common GND
